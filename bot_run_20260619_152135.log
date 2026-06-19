@@ -1,0 +1,21 @@
+2026-06-19 15:21:35,989 [INFO] [SYSTEM] Synchronising clock with Binance server…
+2026-06-19 15:21:36,138 [INFO] [SYSTEM] Clock synchronised. Offset: 53157ms.
+2026-06-19 15:21:36,146 [INFO] [SYSTEM] Bot started. Tracking 9 positions.
+2026-06-19 15:21:36,146 [INFO] [SYSTEM] Running one-time wallet ingestion…
+2026-06-19 15:21:38,995 [INFO] [SYSTEM] Ingestion complete. Tracking 9 positions.
+2026-06-19 15:21:38,995 [INFO] ======================================================================
+2026-06-19 15:21:38,995 [INFO] [LOOP] Cycle #1 | 2026-06-19 15:21:38
+2026-06-19 15:21:38,995 [INFO] [MONITOR] Evaluating 9 open positions…
+2026-06-19 15:21:39,145 [INFO] [DATA] TRXUSDT | now=0.3218 | entry=0.3173 | PnL=+1.42%
+2026-06-19 15:21:39,295 [INFO] [DATA] RLUSDUSDT | now=1.0008 | entry=1.0008 | PnL=+0.00%
+2026-06-19 15:21:39,448 [INFO] [DATA] WLDUSDT | now=0.6214 | entry=0.6348 | PnL=-2.11%
+2026-06-19 15:21:39,612 [INFO] [DATA] XLMUSDT | now=0.2193 | entry=0.2262 | PnL=-3.05%
+2026-06-19 15:21:39,778 [INFO] [DATA] ENAUSDT | now=0.0876 | entry=0.0897 | PnL=-2.34%
+2026-06-19 15:21:39,929 [INFO] [DATA] UUSDT | now=1.0009 | entry=1.0009 | PnL=+0.00%
+2026-06-19 15:21:40,126 [INFO] [DATA] SYNUSDT | now=0.1324 | entry=0.1178 | PnL=+12.39%
+2026-06-19 15:21:40,279 [INFO] [DATA] BIOUSDT | now=0.0344 | entry=0.0356 | PnL=-3.45%
+2026-06-19 15:21:40,429 [INFO] [DATA] ALLOUSDT | now=0.3872 | entry=0.3833 | PnL=+1.02%
+2026-06-19 15:21:40,429 [INFO] [INVENTORY] 9/10 slots used — 1 vacant.
+2026-06-19 15:21:40,595 [INFO] [LIQUIDITY] Free USDT: $0.58
+2026-06-19 15:21:40,595 [INFO] [STANDBY] Insufficient USDT (need $10.00).
+2026-06-19 15:21:40,595 [INFO] [SLEEP] Sleeping for 120s…

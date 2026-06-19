@@ -1,0 +1,37 @@
+{
+    "TRXUSDT": {
+        "symbol": "TRXUSDT",
+        "quantity": 31.2,
+        "entry_price": 0.3173,
+        "take_profit": 0.3236,
+        "stop_loss": 0.3141
+    },
+    "ENAUSDT": {
+        "symbol": "ENAUSDT",
+        "quantity": 111.48,
+        "entry_price": 0.0897,
+        "take_profit": 0.0961,
+        "stop_loss": 0.0864
+    },
+    "BIOUSDT": {
+        "symbol": "BIOUSDT",
+        "quantity": 280.8,
+        "entry_price": 0.03564,
+        "take_profit": 0.03777,
+        "stop_loss": 0.03457
+    },
+    "ALLOUSDT": {
+        "symbol": "ALLOUSDT",
+        "quantity": 26.0,
+        "entry_price": 0.3833,
+        "take_profit": 0.4095,
+        "stop_loss": 0.3701
+    },
+    "\u5e01\u5b89\u4eba\u751fUSDT": {
+        "symbol": "\u5e01\u5b89\u4eba\u751fUSDT",
+        "quantity": 14.1,
+        "entry_price": 0.7091,
+        "take_profit": 0.7603,
+        "stop_loss": 0.6834
+    }
+}

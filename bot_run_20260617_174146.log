@@ -1,0 +1,31 @@
+2026-06-17 17:41:46,925 [INFO] [SYSTEM] Synchronising clock with Binance server…
+2026-06-17 17:41:47,065 [INFO] [SYSTEM] Clock synchronised. Offset: 51588ms.
+2026-06-17 17:41:47,072 [INFO] [SYSTEM] Bot started. Tracking 10 positions.
+2026-06-17 17:41:47,072 [INFO] [SYSTEM] Running one-time wallet ingestion…
+2026-06-17 17:41:47,210 [WARNING] [INGESTION] Failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2026-06-17 17:41:47,210 [INFO] [SYSTEM] Ingestion complete. Tracking 10 positions.
+2026-06-17 17:41:47,210 [INFO] ======================================================================
+2026-06-17 17:41:47,210 [INFO] [LOOP] Cycle #1 | 2026-06-17 17:41:47
+2026-06-17 17:41:47,210 [INFO] [MONITOR] Evaluating 10 open positions…
+2026-06-17 17:41:47,343 [INFO] [DATA] TRXUSDT | now=0.3204 | entry=0.3173 | PnL=+0.98%
+2026-06-17 17:41:47,491 [INFO] [DATA] BABYUSDT | now=0.0162 | entry=0.0174 | PnL=-7.00%
+2026-06-17 17:41:47,491 [INFO] [EXIT] SL hit for BABYUSDT.
+2026-06-17 17:41:48,144 [ERROR] [EXIT] Binance error exiting BABYUSDT: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2026-06-17 17:41:48,159 [WARNING] [EXIT] BABYUSDT: sell attempt 1/3 failed — will retry next cycle.
+2026-06-17 17:41:48,294 [INFO] [DATA] SPCXBUSDT | now=203.8400 | entry=214.4700 | PnL=-4.96%
+2026-06-17 17:41:48,426 [INFO] [DATA] UNIUSDT | now=3.3120 | entry=2.9650 | PnL=+11.70%
+2026-06-17 17:41:48,558 [INFO] [DATA] XPLUSDT | now=0.0962 | entry=0.0939 | PnL=+2.45%
+2026-06-17 17:41:48,708 [INFO] [DATA] RLUSDUSDT | now=1.0009 | entry=1.0008 | PnL=+0.01%
+2026-06-17 17:41:48,843 [INFO] [DATA] ALLOUSDT | now=0.3743 | entry=0.3978 | PnL=-5.91%
+2026-06-17 17:41:48,974 [INFO] [DATA] INJUSDT | now=5.4170 | entry=5.7290 | PnL=-5.45%
+2026-06-17 17:41:48,974 [INFO] [EXIT] SL hit for INJUSDT.
+2026-06-17 17:41:49,583 [ERROR] [EXIT] Binance error exiting INJUSDT: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2026-06-17 17:41:49,583 [WARNING] [EXIT] INJUSDT: sell attempt 1/3 failed — will retry next cycle.
+2026-06-17 17:41:49,724 [INFO] [DATA] ASTERUSDT | now=0.7270 | entry=0.6530 | PnL=+11.33%
+2026-06-17 17:41:49,724 [INFO] [EXIT] TP hit for ASTERUSDT.
+2026-06-17 17:41:50,733 [ERROR] [EXIT] Binance error exiting ASTERUSDT: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2026-06-17 17:41:50,733 [WARNING] [EXIT] ASTERUSDT: sell attempt 1/3 failed — will retry next cycle.
+2026-06-17 17:41:50,875 [INFO] [DATA] WLDUSDT | now=0.6563 | entry=0.6348 | PnL=+3.39%
+2026-06-17 17:41:50,875 [INFO] [INVENTORY] 10/10 slots used — 0 vacant.
+2026-06-17 17:41:50,875 [INFO] [STANDBY] Maximum capacity reached.
+2026-06-17 17:41:50,875 [INFO] [SLEEP] Sleeping for 120s…

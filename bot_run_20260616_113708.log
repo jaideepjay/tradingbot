@@ -1,0 +1,10 @@
+2026-06-16 11:37:08,466 [INFO] [SYSTEM] Synchronising clock with Binance server…
+2026-06-16 11:37:08,589 [INFO] [SYSTEM] Clock synchronised. Offset: 50869ms.
+2026-06-16 11:37:08,591 [INFO] [SYSTEM] Bot started. Tracking 0 positions.
+2026-06-16 11:37:08,591 [INFO] ======================================================================
+2026-06-16 11:37:08,592 [INFO] [LOOP] Cycle #1 | 2026-06-16 11:37:08
+2026-06-16 11:37:08,712 [WARNING] [INGESTION] Failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2026-06-16 11:37:08,713 [INFO] [INVENTORY] 0/10 slots used — 10 vacant.
+2026-06-16 11:37:08,824 [INFO] [LIQUIDITY] Free USDT: $0.00
+2026-06-16 11:37:08,824 [INFO] [STANDBY] Insufficient USDT (need $10.00).
+2026-06-16 11:37:08,824 [INFO] [SLEEP] Sleeping for 120s…

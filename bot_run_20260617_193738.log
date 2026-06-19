@@ -1,0 +1,92 @@
+2026-06-17 19:37:39,528 [INFO] [SYSTEM] Synchronising clock with Binance server…
+2026-06-17 19:37:39,729 [INFO] [SYSTEM] Clock synchronised. Offset: 51173ms.
+2026-06-17 19:37:39,739 [INFO] [SYSTEM] Bot started. Tracking 10 positions.
+2026-06-17 19:37:39,739 [INFO] [SYSTEM] Running one-time wallet ingestion…
+2026-06-17 19:37:39,938 [INFO] [INGESTION] Slot limit reached — stopping ingestion.
+2026-06-17 19:37:39,938 [INFO] [SYSTEM] Ingestion complete. Tracking 10 positions.
+2026-06-17 19:37:39,938 [INFO] ======================================================================
+2026-06-17 19:37:39,938 [INFO] [LOOP] Cycle #1 | 2026-06-17 19:37:39
+2026-06-17 19:37:39,938 [INFO] [MONITOR] Evaluating 10 open positions…
+2026-06-17 19:37:40,143 [INFO] [DATA] TRXUSDT | now=0.3206 | entry=0.3173 | PnL=+1.04%
+2026-06-17 19:37:40,320 [INFO] [DATA] SPCXBUSDT | now=195.9600 | entry=214.4700 | PnL=-8.63%
+2026-06-17 19:37:40,320 [INFO] [EXIT] SL hit for SPCXBUSDT.
+2026-06-17 19:37:41,492 [WARNING] [EXIT] SPCXBUSDT: quantity mismatch (-2010). Fetching actual balance and retrying…
+2026-06-17 19:37:42,804 [INFO] [EXIT] SPCXBUSDT sold (STOP_LOSS) qty=0.045000
+2026-06-17 19:37:42,804 [INFO] [COOLDOWN] SPCXBUSDT locked for 3600s.
+2026-06-17 19:37:43,004 [INFO] [DATA] RLUSDUSDT | now=1.0008 | entry=1.0008 | PnL=+0.00%
+2026-06-17 19:37:43,200 [INFO] [DATA] ALLOUSDT | now=0.3715 | entry=0.3978 | PnL=-6.61%
+2026-06-17 19:37:43,379 [INFO] [DATA] WLDUSDT | now=0.6582 | entry=0.6348 | PnL=+3.69%
+2026-06-17 19:37:43,586 [INFO] [DATA] XLMUSDT | now=0.2258 | entry=0.2262 | PnL=-0.18%
+2026-06-17 19:37:43,770 [INFO] [DATA] ENAUSDT | now=0.0904 | entry=0.0897 | PnL=+0.78%
+2026-06-17 19:37:43,975 [INFO] [DATA] AAVEUSDT | now=75.1500 | entry=75.0100 | PnL=+0.19%
+2026-06-17 19:37:44,155 [INFO] [DATA] UNIUSDT | now=3.2940 | entry=3.3250 | PnL=-0.93%
+2026-06-17 19:37:44,350 [INFO] [DATA] NEARUSDT | now=2.3120 | entry=2.3100 | PnL=+0.09%
+2026-06-17 19:37:44,350 [INFO] [INVENTORY] 9/10 slots used — 1 vacant.
+2026-06-17 19:37:44,538 [INFO] [LIQUIDITY] Free USDT: $12.87
+2026-06-17 19:37:52,529 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-06-17 19:37:52,531 [INFO] [FILTER] ZECUSDT below EMA-50 (price=483.2700, ema=498.1038). Skipping.
+2026-06-17 19:37:53,023 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-06-17 19:37:53,023 [INFO] [FILTER] ASTERUSDT RSI 82.6 outside safe band [45, 65]. Skipping.
+2026-06-17 19:37:53,513 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-06-17 19:37:53,513 [INFO] [FILTER] TAOUSDT below EMA-50 (price=254.9000, ema=259.5914). Skipping.
+2026-06-17 19:37:54,001 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-06-17 19:37:54,001 [INFO] [FILTER] XPLUSDT RSI 80.2 outside safe band [45, 65]. Skipping.
+2026-06-17 19:37:54,492 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-06-17 19:37:54,492 [INFO] [FILTER] SUIUSDT below EMA-50 (price=0.7908, ema=0.7933). Skipping.
+2026-06-17 19:37:54,980 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-06-17 19:37:54,980 [INFO] [FILTER] SENTUSDT below EMA-50 (price=0.0174, ema=0.0178). Skipping.
+2026-06-17 19:37:55,488 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-06-17 19:37:55,488 [INFO] [FILTER] MEGAUSDT below EMA-50 (price=0.0544, ema=0.0576). Skipping.
+2026-06-17 19:37:55,990 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-06-17 19:37:55,990 [INFO] [DEPLOY] ONDOUSDT passed all filters — entering…
+2026-06-17 19:37:56,908 [INFO] [TRADE] Placing market buy for ONDOUSDT — qty=26.600000
+2026-06-17 19:37:58,693 [INFO] [TRADE] ONDOUSDT entered | entry=0.3748 | TP=0.3983 | SL=0.3630
+2026-06-17 19:37:58,693 [INFO] [SLEEP] Sleeping for 120s…
+2026-06-17 19:39:58,701 [INFO] ======================================================================
+2026-06-17 19:39:58,701 [INFO] [LOOP] Cycle #2 | 2026-06-17 19:39:58
+2026-06-17 19:39:58,701 [INFO] [MONITOR] Evaluating 10 open positions…
+2026-06-17 19:39:58,838 [INFO] [DATA] TRXUSDT | now=0.3206 | entry=0.3173 | PnL=+1.04%
+2026-06-17 19:39:58,965 [INFO] [DATA] RLUSDUSDT | now=1.0008 | entry=1.0008 | PnL=+0.00%
+2026-06-17 19:39:59,111 [INFO] [DATA] ALLOUSDT | now=0.3736 | entry=0.3978 | PnL=-6.08%
+2026-06-17 19:39:59,245 [INFO] [DATA] WLDUSDT | now=0.6557 | entry=0.6348 | PnL=+3.29%
+2026-06-17 19:39:59,383 [INFO] [DATA] XLMUSDT | now=0.2254 | entry=0.2262 | PnL=-0.35%
+2026-06-17 19:39:59,516 [INFO] [DATA] ENAUSDT | now=0.0899 | entry=0.0897 | PnL=+0.22%
+2026-06-17 19:39:59,659 [INFO] [DATA] AAVEUSDT | now=74.8800 | entry=75.0100 | PnL=-0.17%
+2026-06-17 19:39:59,795 [INFO] [DATA] UNIUSDT | now=3.2860 | entry=3.3250 | PnL=-1.17%
+2026-06-17 19:39:59,930 [INFO] [DATA] NEARUSDT | now=2.3030 | entry=2.3100 | PnL=-0.30%
+2026-06-17 19:40:00,059 [INFO] [DATA] ONDOUSDT | now=0.3735 | entry=0.3748 | PnL=-0.35%
+2026-06-17 19:40:00,059 [INFO] [INVENTORY] 10/10 slots used — 0 vacant.
+2026-06-17 19:40:00,059 [INFO] [STANDBY] Maximum capacity reached.
+2026-06-17 19:40:00,059 [INFO] [SLEEP] Sleeping for 120s…
+2026-06-17 19:42:00,068 [INFO] ======================================================================
+2026-06-17 19:42:00,068 [INFO] [LOOP] Cycle #3 | 2026-06-17 19:42:00
+2026-06-17 19:42:00,068 [INFO] [MONITOR] Evaluating 10 open positions…
+2026-06-17 19:42:00,204 [INFO] [DATA] TRXUSDT | now=0.3205 | entry=0.3173 | PnL=+1.01%
+2026-06-17 19:42:00,338 [INFO] [DATA] RLUSDUSDT | now=1.0008 | entry=1.0008 | PnL=+0.00%
+2026-06-17 19:42:00,475 [INFO] [DATA] ALLOUSDT | now=0.3730 | entry=0.3978 | PnL=-6.23%
+2026-06-17 19:42:00,611 [INFO] [DATA] WLDUSDT | now=0.6581 | entry=0.6348 | PnL=+3.67%
+2026-06-17 19:42:00,740 [INFO] [DATA] XLMUSDT | now=0.2257 | entry=0.2262 | PnL=-0.22%
+2026-06-17 19:42:00,879 [INFO] [DATA] ENAUSDT | now=0.0902 | entry=0.0897 | PnL=+0.56%
+2026-06-17 19:42:01,012 [INFO] [DATA] AAVEUSDT | now=75.1000 | entry=75.0100 | PnL=+0.12%
+2026-06-17 19:42:01,154 [INFO] [DATA] UNIUSDT | now=3.2960 | entry=3.3250 | PnL=-0.87%
+2026-06-17 19:42:01,290 [INFO] [DATA] NEARUSDT | now=2.3130 | entry=2.3100 | PnL=+0.13%
+2026-06-17 19:42:01,426 [INFO] [DATA] ONDOUSDT | now=0.3750 | entry=0.3748 | PnL=+0.05%
+2026-06-17 19:42:01,426 [INFO] [INVENTORY] 10/10 slots used — 0 vacant.
+2026-06-17 19:42:01,427 [INFO] [STANDBY] Maximum capacity reached.
+2026-06-17 19:42:01,427 [INFO] [SLEEP] Sleeping for 120s…
+2026-06-17 19:44:01,427 [INFO] ======================================================================
+2026-06-17 19:44:01,427 [INFO] [LOOP] Cycle #4 | 2026-06-17 19:44:01
+2026-06-17 19:44:01,427 [INFO] [MONITOR] Evaluating 10 open positions…
+2026-06-17 19:44:01,554 [INFO] [DATA] TRXUSDT | now=0.3207 | entry=0.3173 | PnL=+1.07%
+2026-06-17 19:44:01,704 [INFO] [DATA] RLUSDUSDT | now=1.0009 | entry=1.0008 | PnL=+0.01%
+2026-06-17 19:44:01,838 [INFO] [DATA] ALLOUSDT | now=0.3725 | entry=0.3978 | PnL=-6.36%
+2026-06-17 19:44:01,972 [INFO] [DATA] WLDUSDT | now=0.6592 | entry=0.6348 | PnL=+3.84%
+2026-06-17 19:44:02,119 [INFO] [DATA] XLMUSDT | now=0.2254 | entry=0.2262 | PnL=-0.35%
+2026-06-17 19:44:02,251 [INFO] [DATA] ENAUSDT | now=0.0904 | entry=0.0897 | PnL=+0.78%
+2026-06-17 19:44:02,389 [INFO] [DATA] AAVEUSDT | now=75.1300 | entry=75.0100 | PnL=+0.16%
+2026-06-17 19:44:02,523 [INFO] [DATA] UNIUSDT | now=3.2930 | entry=3.3250 | PnL=-0.96%
+2026-06-17 19:44:02,665 [INFO] [DATA] NEARUSDT | now=2.3150 | entry=2.3100 | PnL=+0.22%
+2026-06-17 19:44:02,801 [INFO] [DATA] ONDOUSDT | now=0.3753 | entry=0.3748 | PnL=+0.13%
+2026-06-17 19:44:02,801 [INFO] [INVENTORY] 10/10 slots used — 0 vacant.
+2026-06-17 19:44:02,801 [INFO] [STANDBY] Maximum capacity reached.
+2026-06-17 19:44:02,801 [INFO] [SLEEP] Sleeping for 120s…
